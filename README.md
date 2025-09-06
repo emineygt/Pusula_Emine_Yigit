@@ -53,6 +53,12 @@ EDA'dan elde edilen bulgular doğrultusunda, veri setini modellemeye hazır hâl
 
 ---
 
+##  Çıktılar
+
+- **`processed_data.csv`**: Tüm ön işleme adımlarından geçmiş, modellemeye hazır temiz veri seti.
+
+- **`eda_report.html`**: `ydata-profiling` tarafından oluşturulan, veri setindeki her bir değişken için detaylı istatistikler, dağılımlar ve etkileşimler içeren  rapor.
+
 ##  Gerekli Kütüphaneler
 
 Projeyi çalıştırmak için aşağıdaki Python kütüphaneleri gereklidir:
@@ -60,9 +66,4 @@ Projeyi çalıştırmak için aşağıdaki Python kütüphaneleri gereklidir:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl ydata-profiling
 
-##  Çıktılar
-
-- **`processed_data.csv`**: Tüm ön işleme adımlarından geçmiş, modellemeye hazır temiz veri seti.
-
-- **`eda_report.html`**: `ydata-profiling` tarafından oluşturulan, veri setindeki her bir değişken için detaylı istatistikler, dağılımlar ve etkileşimler içeren  rapor.
 
